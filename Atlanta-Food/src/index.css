@@ -1,0 +1,50 @@
+.Restaurant {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  padding : 0.5em;
+  margin: 0.5em;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: lightcyan;
+  width : 300px;
+  box-shadow: 2px 2px 2px grey;
+  background-color: lightgray;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px transparent;
+  background-color: lightgray;
+  padding: 0.5em;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: bold
+}
+
+button:hover {
+  border: 1px solid black;
+}
+
+h1 {
+  font-size: xx-large;
+  color: black;
+}
+
+p {
+  font-size: large;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
